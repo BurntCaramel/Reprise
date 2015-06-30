@@ -1,0 +1,188 @@
+{
+	"items": [
+		{
+			"title": "Prototyping: Fake It Till You Make It",
+			"type": "video",
+			"URL": "https://developer.apple.com/videos/wwdc/2014/?include=223#223",
+			"categories": {
+				"Apple": {
+					"development": true,
+					"iOS": true,
+					"OS X": true,
+					"Keynote": true,
+					"WWDC": true
+				},
+				"prototyping": true
+			}
+		},
+		{
+			"title": "Good Design is About Process, not Product",
+			"URL": "http://blog.jaredsinclair.com/post/97655887470/good-design-is-about-process-not-product"
+		},
+		{
+			"title": "Debug 60: Melton & Ganatra episode III: Shipping software",
+			"type": "podcastEpisode",
+			"overcastCardURL": "https://overcast.fm/podcasts/episode_card/9880586213319?t=0",
+			"URL": "https://overcast.fm/+I_IDU18c",
+			"source": {
+				"Debug podcast": true
+			},
+			"categories": {
+				"Apple": {
+					"development": true,
+					"iOS": true,
+					"OS X": true
+				},
+				"programming": {
+					"app": true,
+					"operating system": true
+				},
+				"design": {
+					"screen": true,
+					"desktop": true,
+					"mobile": true
+				},
+				"management": true
+			}
+		},
+		{
+			"title": "NSConf: App Marketing for Small Developers – Marco Arment",
+			"URL": "https://vimeo.com/124349705"
+		},
+		{
+			"title": "Debug 32: Evan Doll on Apple and Flipboard",
+			"type": "podcastEpisode",
+			"overcastCardURL": "https://overcast.fm/podcasts/episode_card/9881111905284?t=0",
+			"URL": "https://overcast.fm/+I_KAqRAQ",
+			"source": {
+				"Debug podcast": true
+			},
+			"categories": {
+				"Apple": {
+					"development": true,
+					"iOS": true,
+					"OS X": true,
+					"Aperture": true
+				},
+				"Flipboard": true,
+				"programming": {
+					"app": true
+				},
+				"design": {
+					"screen": true,
+					"desktop": true,
+					"mobile": true
+				}
+			}
+		},
+		{
+			"title": "Advanced iOS Application Architecture and Patterns",
+			"URL": "https://developer.apple.com/videos/wwdc/2014/?include=229#229"
+		},
+		{
+			"title": "UX is UI",
+			"URL": "https://medium.com/@mikeatherton/ux-is-ui-105460807734"
+		},
+		{
+			"title": "Rework",
+			"type": "bookAmazon",
+			"URL": "http://amzn.to/1BCd70z",
+			"categories": {
+				"business": true,
+				"web": {
+					"design": true,
+					"development": true,
+					"app": true
+				},
+				"programming": {
+					"app": true
+				}
+			}
+		},
+		{
+			"title": "The Elements of User Onboarding",
+			"type": "ebook",
+			"URL": "https://www.useronboard.com/training/",
+			"categories": {
+				"business": true,
+				"UX": {
+					"user onboarding": true,
+					"forms": true
+				}
+			}
+		},
+		{
+			"title": "21 management things I learned at Imgur",
+			"URL": "https://medium.com/@gerstenzang/21-management-things-i-learned-at-imgur-7abb72bdf8bf",
+			"categories": {
+				"business": true,
+				"management": true
+			}
+		},
+		{
+			"title": "Release Notes #106: Michael Simmons (part 1)",
+			"type": "podcastEpisode",
+			"overcastCardURL": "https://overcast.fm/podcasts/episode_card/10202811730311?t=0",
+			"URL": "https://overcast.fm/+JR4b4CYc"
+		},
+		{
+			"title": "Release Notes #106: Michael Simmons (part 2)",
+			"type": "podcastEpisode",
+			"overcastCardURL": "https://overcast.fm/podcasts/episode_card/10203302337114?t=0",
+			"URL": "https://overcast.fm/+JR6Q2Glo"
+		},
+		{
+			"title": "Release Notes #85: Rob Rhyne (part 2)",
+			"type": "podcastEpisode",
+			"overcastCardURL": "https://overcast.fm/podcasts/episode_card/10202738316277?t=0",
+			"URL": "https://overcast.fm/+JR4KX0_U"
+		},
+		{
+			"title": "How to Create Meaningful Work– Debbie Millman",
+			"type": "podcastEpisode",
+			"overcastCardURL": "https://overcast.fm/podcasts/episode_card/65781478324353?t=0",
+			"URL": "https://overcast.fm/+70_Gl-IE"
+		},
+		{
+			"title": "Working Out #4: Talent vs Hard Work",
+			"type": "podcastEpisode",
+			"overcastCardURL": "https://overcast.fm/podcasts/episode_card/112252922078625?t=0",
+			"URL": "https://overcast.fm/+BmF-uLpaE"
+		},
+		{
+			"title": "Protocol-Oriented Programming in Swift",
+			"URL": "https://developer.apple.com/videos/wwdc/2015/?id=408",
+			"categories": {
+				"Apple": {
+					"development": true,
+					"iOS": true,
+					"OS X": true,
+					"WWDC": true
+				},
+				"programming": {
+					"app": true,
+					"Swift": true,
+					"protocol": true
+				}
+			}
+		},
+		{
+			"title": "Introducing the New System Fonts",
+			"URL": "https://developer.apple.com/videos/wwdc/2015/?id=804",
+			"categories": {
+				"Apple": {
+					"development": true,
+					"iOS": true,
+					"OS X": true,
+					"WWDC": true
+				},
+				"design": {
+					"typography": true,
+					"screen": true,
+					"desktop": true,
+					"mobile": true
+				}
+			}
+		}
+	]
+}

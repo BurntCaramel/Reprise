@@ -15,6 +15,8 @@
 		B2139EAD1B42A59F00F8E35E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2139EAB1B42A59F00F8E35E /* LaunchScreen.storyboard */; };
 		B2139EB81B42A59F00F8E35E /* RepriseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2139EB71B42A59F00F8E35E /* RepriseTests.swift */; };
 		B2139EC31B42A59F00F8E35E /* RepriseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2139EC21B42A59F00F8E35E /* RepriseUITests.swift */; };
+		B2139ED31B42AFB900F8E35E /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2139ED21B42AFB900F8E35E /* SafariServices.framework */; };
+		B2139ED51B42BAEE00F8E35E /* items.json in Resources */ = {isa = PBXBuildFile; fileRef = B2139ED41B42BAEE00F8E35E /* items.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B2139EBE1B42A59F00F8E35E /* RepriseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepriseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2139EC21B42A59F00F8E35E /* RepriseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepriseUITests.swift; sourceTree = "<group>"; };
 		B2139EC41B42A59F00F8E35E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2139ED21B42AFB900F8E35E /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		B2139ED41B42BAEE00F8E35E /* items.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = items.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2139ED31B42AFB900F8E35E /* SafariServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +84,7 @@
 		B2139E941B42A59E00F8E35E = {
 			isa = PBXGroup;
 			children = (
+				B2139ED21B42AFB900F8E35E /* SafariServices.framework */,
 				B2139E9F1B42A59F00F8E35E /* Reprise */,
 				B2139EB61B42A59F00F8E35E /* RepriseTests */,
 				B2139EC11B42A59F00F8E35E /* RepriseUITests */,
@@ -106,6 +112,7 @@
 				B2139EA91B42A59F00F8E35E /* Assets.xcassets */,
 				B2139EAB1B42A59F00F8E35E /* LaunchScreen.storyboard */,
 				B2139EAE1B42A59F00F8E35E /* Info.plist */,
+				B2139ED41B42BAEE00F8E35E /* items.json */,
 			);
 			path = Reprise;
 			sourceTree = "<group>";
@@ -195,6 +202,7 @@
 				TargetAttributes = {
 					B2139E9C1B42A59F00F8E35E = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 5278SPSAPR;
 					};
 					B2139EB21B42A59F00F8E35E = {
 						CreatedOnToolsVersion = 7.0;
@@ -231,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2139ED51B42BAEE00F8E35E /* items.json in Resources */,
 				B2139EAD1B42A59F00F8E35E /* LaunchScreen.storyboard in Resources */,
 				B2139EAA1B42A59F00F8E35E /* Assets.xcassets in Resources */,
 				B2139EA81B42A59F00F8E35E /* Main.storyboard in Resources */,
@@ -402,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Reprise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.burntcaramel.Reprise;
@@ -413,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Reprise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.burntcaramel.Reprise;
