@@ -1,5 +1,141 @@
 {
+	"sources": {
+		"debug": {
+			"title": "Debug"
+		}
+	},
 	"items": [
+		{
+			"title": "Jason Santa Maria: The only way to get to the good ideas is to trudge through all the obvious and bad ones first",
+			"URL": "https://the-pastry-box-project.net/jason-santa-maria/2014-November-15"
+		},
+		{
+			"title": "John Cleese On Creativity",
+			"URL": "https://soundcloud.com/londonscreenwriters/john-cleese-on-creativity"
+		},
+		{
+			"title": "Marc Edwards: Exploration",
+			"URL": "http://bjango.com/articles/exploration/"
+		},
+		{
+			"title": "Scared Of Failing? Ask Yourself These 6 Fear-Killing Questions",
+			"URL": "http://www.fastcodesign.com/3027404/scared-of-failing-ask-yourself-these-6-fear-killing-questions"
+		},
+		{
+			"title": "Working Out #4: Talent vs Hard Work",
+			"type": "podcastEpisode",
+			"overcastCardURL": "https://overcast.fm/podcasts/episode_card/112252922078625?t=0",
+			"URL": "https://overcast.fm/+BmF-uLpaE"
+		},
+		{
+			"title": "The introverts guide to getting noticed",
+			"URL": "http://www.pauldessert.com/blog/the-introverts-guide-to-getting-noticed.php"
+		},
+		{
+			"title": "If your product is Great, it doesn't need to be Good",
+			"URL": "http://paulbuchheit.blogspot.com.au/2010/02/if-your-product-is-great-it-doesnt-need.html"
+		},
+		{
+			"title": "The Tyranny of the Minimum Viable Product",
+			"URL": "https://medium.com/user-experience-design-1/the-tyranny-of-the-minimum-viable-product-fb25e2e57e6e"
+		},
+		{
+			"title": "Most",
+			"URL": "http://www.joecieplinski.com/blog/2014/12/29/most/",
+			"categories": {
+				"product": true,
+				"marketing": true
+			}
+		},
+		{
+			"title": "Entrepreneurs Who Go It Alone — By Choice",
+			"URL": "http://content.time.com/time/specials/packages/printout/0,29239,2094921_2094923_2094924,00.html"
+		},
+		{
+			"title": "Faith in eventually",
+			"URL": "https://signalvnoise.com/posts/3776-faith-in-eventually"
+		},
+		{
+			"title": "Why Managing For Progress Is So Important",
+			"URL": "http://tomtunguz.com/progress-principle/"
+		},
+		{
+			"title": "How to Create Meaningful Work – Debbie Millman",
+			"type": "podcastEpisode",
+			"overcastCardURL": "https://overcast.fm/podcasts/episode_card/65781478324353?t=0",
+			"URL": "https://overcast.fm/+70_Gl-IE"
+		},
+		{
+			"title": "Good Design is About Process, not Product",
+			"URL": "http://blog.jaredsinclair.com/post/97655887470/good-design-is-about-process-not-product"
+		},
+		{
+			"title": "Release Notes #106: Michael Simmons (part 1)",
+			"type": "podcastEpisode",
+			"overcastCardURL": "https://overcast.fm/podcasts/episode_card/10202811730311?t=0",
+			"URL": "https://overcast.fm/+JR4b4CYc",
+			"categories": {
+				"business": true,
+				"product": {
+					"app": true
+				},
+				"design": {
+					"screen": true
+				},
+				"programming": {
+					"app": true
+				},
+				"Apple": {
+					"development": true,
+					"iOS": true,
+					"OS X": true
+				}
+			}
+		},
+		{
+			"title": "Release Notes #106: Michael Simmons (part 2)",
+			"type": "podcastEpisode",
+			"overcastCardURL": "https://overcast.fm/podcasts/episode_card/10203302337114?t=0",
+			"URL": "https://overcast.fm/+JR6Q2Glo",
+			"categories": {
+				"business": true,
+				"product": {
+					"app": true
+				},
+				"design": {
+					"screen": true
+				},
+				"programming": {
+					"app": true
+				},
+				"Apple": {
+					"development": true,
+					"iOS": true,
+					"OS X": true
+				}
+			}
+		},
+		{
+			"title": "Rework",
+			"type": "bookAmazon",
+			"URL": "http://amzn.to/1BCd70z",
+			"categories": {
+				"business": true,
+				"product": true,
+				"design": {
+					"screen": {
+						"web": true,
+						"mobile": true,
+						"desktop": true
+					}
+				},
+				"programming": {
+					"app": true,
+					"web": true
+				},
+				"UX": true
+			}
+		},
 		{
 			"title": "Prototyping: Fake It Till You Make It",
 			"type": "video",
@@ -12,12 +148,112 @@
 					"Keynote": true,
 					"WWDC": true
 				},
-				"prototyping": true
+				"product": {
+					"app": true,
+					"prototyping": true
+				},
+				"design": {
+					"screen": {
+						"mobile": true
+					}
+				}
 			}
 		},
 		{
-			"title": "Good Design is About Process, not Product",
-			"URL": "http://blog.jaredsinclair.com/post/97655887470/good-design-is-about-process-not-product"
+			"title": "The Elements of User Onboarding",
+			"type": "ebook",
+			"URL": "https://www.useronboard.com/training/",
+			"categories": {
+				"business": true,
+				"product": true,
+				"UX": {
+					"user onboarding": true,
+					"forms": true
+				}
+			}
+		},
+		{
+			"title": "Forget Calls-to-Action, Focus on Obvious Next Steps",
+			"URL": "http://www.gkogan.co/blog/ridiculously-obvious-next-step/"
+		},
+		{
+			"title": "Andy Budd – The UX of User Experience",
+			"URL": "https://vimeo.com/129106806"
+		},
+		{
+			"title": "UX is UI",
+			"URL": "https://medium.com/@mikeatherton/ux-is-ui-105460807734"
+		},
+		{
+			"title": "Hey, Designers: Stop Trying To Be So Damned Clever",
+			"URL": "http://www.fastcodesign.com/3021554/innovation-by-design/hey-designers-stop-trying-to-be-so-damned-clever/"
+		},
+		{
+			"title": "Visual Design is Not a Thing",
+			"URL": "https://themanual.org/read/issues/2/mark-boulton/article"
+		},
+		{
+			"title": "Obvious Always Wins",
+			"URL": "http://www.lukew.com/ff/entry.asp?1945"
+		},
+		{
+			"title": "Drop Downs Should be the UI of Last Resort",
+			"URL": "https://storify.com/lukew/drop-downs-are-the-ui-of-last-resort"
+		},
+		{
+			"title": "What I Learned In My First Year as a Product Designer",
+			"URL": "https://medium.com/edmodo-design/what-i-learned-in-my-first-year-as-a-product-designer-154618583ecf"
+		},
+		{
+			"title": "Building a Showroom",
+			"URL": "http://www.joecieplinski.com/blog/2014/12/22/building-a-showroom/",
+			"categories": {
+				"marketing": true
+			}
+		},
+		{
+			"title": "Apple Product Pages – WWDC 2014",
+			"URL": "https://www.flickr.com/photos/manikrathee/sets/72157645026635243/with/14329024781/",
+			"categories": {
+				"marketing": true
+			}
+		},
+		{
+			"title": "App Marketing for Small Developers – Marco Arment",
+			"URL": "https://vimeo.com/124349705",
+			"categories": {
+				"product": true,
+				"marketing": true,
+				"UX": true
+			}
+		},
+		{
+			"title": "How side projects saved our startup",
+			"URL": "https://blog.crew.co/how-side-projects-saved-our-startup/"
+		},
+		{
+			"title": "Jessica Livingston: Why Startups Need to Focus on Sales, Not Marketing",
+			"URL": "http://blogs.wsj.com/accelerators/2014/06/03/jessica-livingston-why-startups-need-to-focus-on-sales-not-marketing/"
+		},
+		{
+			"title": "Users are dead or why it’s time to get curious again",
+			"URL": "https://medium.com/startup-on-the-road/users-are-dead-or-why-its-time-to-get-curious-again-3e66ad2fcefe"
+		},
+		{
+			"title": "How We Got 2,000+ Customers by Doing Things That Didn’t Scale",
+			"URL": "https://www.groovehq.com/blog/non-scaleable-growth-tactics"
+		},
+		{
+			"title": "Stop Asking Me to “Sign Up”",
+			"URL": "http://www.gkogan.co/blog/stop-asking-me-to-sign-up/"
+		},
+		{
+			"title": "21 management things I learned at Imgur",
+			"URL": "https://medium.com/@gerstenzang/21-management-things-i-learned-at-imgur-7abb72bdf8bf",
+			"categories": {
+				"business": true,
+				"management": true
+			}
 		},
 		{
 			"title": "Debug 60: Melton & Ganatra episode III: Shipping software",
@@ -38,16 +274,13 @@
 					"operating system": true
 				},
 				"design": {
-					"screen": true,
-					"desktop": true,
-					"mobile": true
+					"screen": {
+						"mobile": true,
+						"desktop": true
+					}
 				},
 				"management": true
 			}
-		},
-		{
-			"title": "NSConf: App Marketing for Small Developers – Marco Arment",
-			"URL": "https://vimeo.com/124349705"
 		},
 		{
 			"title": "Debug 32: Evan Doll on Apple and Flipboard",
@@ -65,71 +298,56 @@
 					"Aperture": true
 				},
 				"Flipboard": true,
+				"product": true,
 				"programming": {
 					"app": true
 				},
 				"design": {
-					"screen": true,
-					"desktop": true,
-					"mobile": true
+					"screen": {
+						"mobile": true
+					}
 				}
 			}
 		},
 		{
-			"title": "Advanced iOS Application Architecture and Patterns",
-			"URL": "https://developer.apple.com/videos/wwdc/2014/?include=229#229"
+			"title": "Multiple Animations",
+			"URL": "http://ronnqvi.st/multiple-animations/",
+			"categories": {
+				"design": {
+					"screen": true,
+					"animation": true
+				}
+			}
 		},
 		{
-			"title": "UX is UI",
-			"URL": "https://medium.com/@mikeatherton/ux-is-ui-105460807734"
+			"title": "Controlling Animation Timing",
+			"URL": "http://ronnqvi.st/controlling-animation-timing/"
 		},
 		{
-			"title": "Rework",
-			"type": "bookAmazon",
-			"URL": "http://amzn.to/1BCd70z",
+			"title": "Why It's OK to Fire Your Bad Customers",
+			"URL": "https://www.groovehq.com/support/how-to-fire-a-bad-customer"
+		},
+		{
+			"title": "Debug #68: Ken Case of the Omni Group",
+			"sourceID": "debug",
+			"episode": "#68",
+			"type": "podcastEpisode",
+			"overcastCardURL": "https://overcast.fm/podcasts/episode_card/9881251790308?t=0",
+			"URL": "https://overcast.fm/+I_KiAveQ",
 			"categories": {
 				"business": true,
-				"web": {
-					"design": true,
-					"development": true,
+				"product": {
 					"app": true
 				},
 				"programming": {
 					"app": true
+				},
+				"Apple": {
+					"development": true,
+					"iOS": true,
+					"OS X": true
 				}
 			}
-		},
-		{
-			"title": "The Elements of User Onboarding",
-			"type": "ebook",
-			"URL": "https://www.useronboard.com/training/",
-			"categories": {
-				"business": true,
-				"UX": {
-					"user onboarding": true,
-					"forms": true
-				}
-			}
-		},
-		{
-			"title": "21 management things I learned at Imgur",
-			"URL": "https://medium.com/@gerstenzang/21-management-things-i-learned-at-imgur-7abb72bdf8bf",
-			"categories": {
-				"business": true,
-				"management": true
-			}
-		},
-		{
-			"title": "Release Notes #106: Michael Simmons (part 1)",
-			"type": "podcastEpisode",
-			"overcastCardURL": "https://overcast.fm/podcasts/episode_card/10202811730311?t=0",
-			"URL": "https://overcast.fm/+JR4b4CYc"
-		},
-		{
-			"title": "Release Notes #106: Michael Simmons (part 2)",
-			"type": "podcastEpisode",
-			"overcastCardURL": "https://overcast.fm/podcasts/episode_card/10203302337114?t=0",
-			"URL": "https://overcast.fm/+JR6Q2Glo"
 		},
 		{
 			"title": "Release Notes #85: Rob Rhyne (part 2)",
@@ -138,16 +356,8 @@
 			"URL": "https://overcast.fm/+JR4KX0_U"
 		},
 		{
-			"title": "How to Create Meaningful Work– Debbie Millman",
-			"type": "podcastEpisode",
-			"overcastCardURL": "https://overcast.fm/podcasts/episode_card/65781478324353?t=0",
-			"URL": "https://overcast.fm/+70_Gl-IE"
-		},
-		{
-			"title": "Working Out #4: Talent vs Hard Work",
-			"type": "podcastEpisode",
-			"overcastCardURL": "https://overcast.fm/podcasts/episode_card/112252922078625?t=0",
-			"URL": "https://overcast.fm/+BmF-uLpaE"
+			"title": "Advanced iOS Application Architecture and Patterns",
+			"URL": "https://developer.apple.com/videos/wwdc/2014/?include=229#229"
 		},
 		{
 			"title": "Protocol-Oriented Programming in Swift",
@@ -161,10 +371,15 @@
 				},
 				"programming": {
 					"app": true,
+					"architecture": true,
 					"Swift": true,
 					"protocol": true
 				}
 			}
+		},
+		{
+			"title": "The ReactJS Controller View Pattern",
+			"URL": "http://blog.andrewray.me/the-reactjs-controller-view-pattern/"
 		},
 		{
 			"title": "Introducing the New System Fonts",
