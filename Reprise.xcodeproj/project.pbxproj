@@ -17,6 +17,7 @@
 		B2139EC31B42A59F00F8E35E /* RepriseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2139EC21B42A59F00F8E35E /* RepriseUITests.swift */; };
 		B2139ED31B42AFB900F8E35E /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2139ED21B42AFB900F8E35E /* SafariServices.framework */; };
 		B2139ED51B42BAEE00F8E35E /* items.json in Resources */ = {isa = PBXBuildFile; fileRef = B2139ED41B42BAEE00F8E35E /* items.json */; };
+		B277D2541B49358100582B3C /* Newsletters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B277D2531B49358000582B3C /* Newsletters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B2139EC41B42A59F00F8E35E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2139ED21B42AFB900F8E35E /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		B2139ED41B42BAEE00F8E35E /* items.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = items.json; sourceTree = "<group>"; };
+		B277D2531B49358000582B3C /* Newsletters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Newsletters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			children = (
 				B2139EA01B42A59F00F8E35E /* AppDelegate.swift */,
 				B2139EA21B42A59F00F8E35E /* FirstViewController.swift */,
+				B277D2531B49358000582B3C /* Newsletters.swift */,
 				B2139EA41B42A59F00F8E35E /* SecondViewController.swift */,
 				B2139EA61B42A59F00F8E35E /* Main.storyboard */,
 				B2139EA91B42A59F00F8E35E /* Assets.xcassets */,
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B277D2541B49358100582B3C /* Newsletters.swift in Sources */,
 				B2139EA51B42A59F00F8E35E /* SecondViewController.swift in Sources */,
 				B2139EA11B42A59F00F8E35E /* AppDelegate.swift in Sources */,
 				B2139EA31B42A59F00F8E35E /* FirstViewController.swift in Sources */,
@@ -413,6 +417,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Reprise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.burntcaramel.Reprise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +430,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Reprise/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.burntcaramel.Reprise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +504,7 @@
 				B2139EC91B42A59F00F8E35E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2139ECA1B42A59F00F8E35E /* Build configuration list for PBXNativeTarget "RepriseTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				B2139ECC1B42A59F00F8E35E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2139ECD1B42A59F00F8E35E /* Build configuration list for PBXNativeTarget "RepriseUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				B2139ECF1B42A59F00F8E35E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
