@@ -35,12 +35,22 @@ class FirstViewController: UITableViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		self.edgesForExtendedLayout = .None
+		
 		do {
 			try loadLinksFromJSON()
+			tableView.setContentOffset(CGPointZero, animated: false)
+			//tableView.scrollToRowAtIndexPath(NSIndexPath(forRow: 0, inSection: 0), atScrollPosition: .Top, animated: false)
 		}
 		catch {
 			
 		}
+	}
+	
+	override func viewDidLayoutSubviews() {
+		super.viewDidLayoutSubviews()
+		
+		tableView.contentInset = UIEdgeInsets(top: topLayoutGuide.length, left: 0, bottom: 0, right: 0)
 	}
 	
 	func loadLinksFromJSON() throws {
